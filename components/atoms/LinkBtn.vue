@@ -23,7 +23,7 @@ else if(variant === "costum"){
 </script>
 <template>
     <NuxtLink :to="href" class="px-6 md:px-7 py-3 rounded-full relative group">
-        <span v-if="variant!=='costum'" class="absolute inset-0 rounded-full group-hover:scale-110 transition-all ease-in-out" :class="spanClass"></span>
+        <span v-if="variant!=='costum'" class="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out" :class="spanClass"></span>
         <span class="relative" :class="textCl">
             <slot/>
         </span>
