@@ -1,0 +1,28 @@
+:root {
+    --color-primary: 23 185 120;
+    --color-secondary: 248 143 194;
+    --color-green: 140 214 106;
+    --color-bg : 255 255 255; 
+    --color-border : 255 255 255; 
+    --color-box: 255 255 255;
+    --box-border: 229 231 235;
+    --box-sd: 226 232 240 / 0.5;
+}
+  
+.dark {
+    --color-bg: 17 24 39; /* gray-900 */
+    --color-box: 30 41 59; /* k    55 65 81 */
+    --box-border: 243 244 246/0.1;
+    --box-sd: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    @apply scroll-smooth;
+}
+
+body{
+    @apply bg-body transition overflow-x-hidden;
+}
