@@ -14,16 +14,19 @@
                     class="h-full w-full bg-gradient-to-tr opacity-40 dark:blur-2xl dark:from-[#570cac] dark:opacity-40">
                 </div>
             </div>
-            <div class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
-                <div class="lg:py-8 xl:py-14">
+            <div
+                class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto">
+                <div class="lg:py-6">
                     <div class="text-center lg:text-left">
-                        <span class="px-2 py-1 rounded-md bg-gray-100 dark:bg-body text-primary ">New season available</span>
-                        <h1 class="text-gray-800 pt-4 dark:text-white font-bold uppercase text-4xl md:text-5xl lg:text-6xl">
-                            LIVE decoders <br> are <span
-                                class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">what</span>
-                            we do
+                        <span class="px-2 py-1 rounded-md bg-gray-100 dark:bg-body text-primary ">New season
+                            available</span>
+                        <h1 class="text-gray-800 pt-4 dark:text-white font-bold text-4xl md:text-5xl lg:text-6xl">
+                            Find and listen <br> Favorite <span
+                                class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-[#8cd66a]">Podcast</span>
+                            on internet
                         </h1>
                     </div>
+
                     <p class="text-gray-600 dark:text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, beatae omnis ipsa magnam neque
                         ut nam nesciunt esse fugit praesentium hic magni possimus illo consequatur.
@@ -53,13 +56,23 @@
                         </AtomsLinkBtn>
                     </div>
                     <div class="pt-8 lg:pt-10 w-max mx-auto lg:mx-0">
-                        <div class="flex items-center">
-                            <img src="/images/sidebiew.jpg" width="40" alt="avatar" class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover">
-                            <img src="/images/sidebiew.jpg" width="40" alt="avatar" class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5">
-                            <img src="/images/sidebiew.jpg" width="40" alt="avatar" class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5">
-                            <img src="/images/sidebiew.jpg" width="40" alt="avatar" class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5">
+                        <div class="flex items-center text-center flex-col sm:flex-row gap-4 sm:gap-0">
+                            <div class="flex items-center">
+                                <img src="/images/sidebiew.jpg" width="40" alt="avatar"
+                                    class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover">
+                                <img src="/images/sidebiew.jpg" width="40" alt="avatar"
+                                    class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5">
+                                <img src="/images/sidebiew.jpg" width="40" alt="avatar"
+                                    class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5">
+                                <img src="/images/sidebiew.jpg" width="40" alt="avatar"
+                                    class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 object-cover -ml-2.5">
+                                <span
+                                    class="w-10 h-10 rounded-full border-2 border-white dark:border-gray-400 bg-body-color flex items-center justify-center text-xs text-gray-300 object-cover -ml-2.5">
+                                    300+
+                                </span>
+                            </div>
                             <div class="pl-2 text-gray-600 dark:text-gray-200">
-                                + 150 Are listening Podux
+                                WordWide listners
                             </div>
                         </div>
                     </div>
@@ -68,11 +81,13 @@
 
                     <div
                         class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center relative">
-                        <div class="absolute z-0 top-1/2  -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl"></div>
+                        <div
+                            class="absolute z-0 top-1/2  -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-primary to-pink-300 dark:from-[#570cac] dark:to-primary blur-2xl">
+                        </div>
                         <div
                             class="absolute w-3/5 h-full z-10 p-1 -translate-y-1/2 top-1/2 right-3 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border">
-                            <img src="/images/sidebiew.jpg" alt="In studio" width="500" height="auto"
-                                loading="lazy" class="w-full h-full rounded-2xl object-cover">
+                            <img src="/images/sidebiew.jpg" alt="In studio" width="500" height="auto" loading="lazy"
+                                class="w-full h-full rounded-2xl object-cover">
                         </div>
                         <div
                             class="absolute  -translate-y-1/2 top-1/2 h-[calc(80%-2rem)] w-[calc(40%-20px)] p-1 rounded-3xl bg-white dark:bg-body shadow-lg shadow-box-shadow border border-box-border ">
