@@ -26,3 +26,16 @@ html{
 body{
     @apply bg-body transition overflow-x-hidden;
 }
+
+.invisible-scroll{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scroll-padding-left: 10px;
+    scroll-padding-right: 10px;
+}
+
+.invisible-scroll::-webkit-scrollbar {
+    display: none;
+}

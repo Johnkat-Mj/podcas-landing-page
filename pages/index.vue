@@ -5,11 +5,8 @@ console.log(colorMode.preference)
 <template>
     <div>
         <SectionsHomeHeroSection/>
+        <SectionsHomeLatestPodcast/>
+        <SectionsHomePopularPodcasts/>
 
-    <!-- <AtomsContainer>
-            <div class="p-10 bg-box-bg shadow-lg shadow-box-shadow border border-box-border">
-
-            </div>
-        </AtomsContainer> -->
     </div>
 </template>
