@@ -1,9 +1,9 @@
 <template>
-    <div class="sm:p-1 h-auto rounded-2xl sm:bg-body sm:shadow-lg sm:shadow-box-shadow sm:border sm:border-box-border">
+    <div class="lg:p-1 h-auto lg:rounded-2xl lg:bg-body lg:shadow-lg lg:shadow-box-shadow lg:border lg:border-box-border">
         <div class="relative h-max min-h-max">
             <img :src="coverImage" alt="Cover image" width="280" class="w-full h-32 sm:h-36 md:h-40 rounded-xl object-cover">
         </div>
-        <div class="sm:px-2 pt-2 pb-4 md:px-4 md:pt-4 md:pb-5">
+        <div class="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4 xl:pb-5 ">
             <h2 class="font-semibold text-base md:text-lg line-clamp-2 text-gray-700 dark:text-white">
                 {{ title }}
             </h2>

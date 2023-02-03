@@ -6,12 +6,12 @@
                     <AtomsTitle texte="Popular podcast"/>
                 </div>
                 <div class="flex items-center min-w-max gap-5">
-                    <NuxtLink to="#">
-                       See All
-                    </NuxtLink>
+                    <AtomsLinkBtn href="#" variant="primary">
+                        See all
+                    </AtomsLinkBtn>
                 </div>
             </div>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-4 sm:gap-x-5 sm:gap-y-6">
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-4 sm:gap-x-5 sm:gap-y-8">
                 <!-- title, href, duration, coverImage, category, createdAt, description -->
                 <CardsPodCast 
                     title="Start your journey in SEO" 

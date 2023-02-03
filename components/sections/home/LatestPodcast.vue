@@ -1,14 +1,14 @@
 <template>
     <section class="pt-20 md:pt-24">
         <AtomsContainer>
-            <div class="flex justify-between pb-6">
+            <div class="flex justify-between items-center pb-6">
                 <div class="">
                     <AtomsTitle texte="Latest Podcast" />
                 </div>
-                <div class="flex items-center min-w-max" :class="nextIsVisible?'':''">
-                    <NuxtLink to="#">
+                <div class="flex items-center min-w-max relative">
+                    <AtomsLinkBtn href="#" variant="primary">
                         Explore more
-                    </NuxtLink>
+                    </AtomsLinkBtn>
                 </div>
             </div>
             <div class="relative">
@@ -68,10 +68,9 @@
 const nextIsVisible = useState('nextIsVisible', () => false)
 const prevIsVisible = useState('prevIsVisible', () => false)
 
-let element = document?.querySelector("[data-slide-recent]") as HTMLDivElement
-
-function testAlert():void{
-    alert("Hello")
+let element:HTMLDivElement
+if (typeof document !== "undefined") {
+    element = document.querySelector("[data-slide-recent]") as HTMLDivElement
 }
 function initScroll(): void {
     if (typeof element === "undefined" || element === null) {
