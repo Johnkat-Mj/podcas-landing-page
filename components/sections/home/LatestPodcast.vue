@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-20 md:pt-24">
+    <section class="pt-20 md:pt-24 relative">
         <AtomsContainer>
             <div class="flex justify-between items-center pb-6">
                 <div class="">
