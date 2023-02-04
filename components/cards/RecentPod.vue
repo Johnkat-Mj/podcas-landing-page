@@ -8,7 +8,7 @@
                 {{ title }}
             </h2>
             <div class="pt-2">
-                <NuxtLink :to="href" class="flex items-center text-white rounded-full p-0.5 pr-2 gap-1 text-sm border w-max">
+                <NuxtLink :to="href" class="flex items-center text-white rounded-full p-0.5 pr-2 gap-1 text-sm border borderp w-max">
                     <span class="p-1 rounded-full bg-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                             fill="currentColor" class="w-3 h-3">
