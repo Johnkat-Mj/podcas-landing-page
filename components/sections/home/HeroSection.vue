@@ -11,7 +11,7 @@
         <AtomsContainer class-name="relative">
             <div aria-hidden="true" class="absolute inset-y-0 w-44 left-0 hidden dark:flex">
                 <div
-                    class="h-1/2 lg:h-full w-full bg-gradient-to-tr opacity-40 dark:blur-2xl dark:from-[#570cac] dark:opacity-20">
+                    class="h-full md:h-1/2 lg:h-full w-full bg-gradient-to-tr opacity-40 dark:blur-2xl dark:from-[#570cac] dark:opacity-20">
                 </div>
             </div>
             <div
