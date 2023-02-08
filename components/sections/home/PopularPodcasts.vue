@@ -27,18 +27,18 @@
             <div
                 class="grid grid-cols-2 items-stretch sm:grid-cols-3 lg:grid-cols-4 gap-x-3 gap-y-10 sm:gap-x-5 sm:gap-y-8">
                 <!-- title, href, duration, coverImage, category, createdAt, description -->
-                <CardsPodCast title="Start your journey in SEO" href="" duration="" cover-image="/images/podCast.jpg"
+                <CardsPodCast title="Start your journey in SEO" href="#" duration="24min" cover-image="/images/podCast.jpg"
                     category="" created-at="" description="Lorem ipsum dolor sit amet,  voluptates porro" />
 
-                <CardsPodCast title="Start your journey in SEO" href="" duration="" cover-image="/images/podCast.jpg"
+                <CardsPodCast title="Start your journey in SEO" href="#" duration="24min" cover-image="/images/podCast.jpg"
                     category="" created-at=""
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
 
-                <CardsPodCast title="Start your journey in SEO" href="" duration="" cover-image="/images/podCast.jpg"
+                <CardsPodCast title="Start your journey in SEO" href="#" duration="24min" cover-image="/images/podCast.jpg"
                     category="" created-at=""
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
 
-                <CardsPodCast title="Start your journey in SEO" href="" duration="" cover-image="/images/podCast.jpg"
+                <CardsPodCast title="Start your journey in SEO" href="#" duration="24min" cover-image="/images/podCast.jpg"
                     category="" created-at=""
                     description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae voluptates porro" />
 

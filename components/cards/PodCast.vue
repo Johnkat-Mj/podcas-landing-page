@@ -4,19 +4,15 @@
         <div class="relative h-max min-h-max">
             <img :src="coverImage" alt="Cover image" width="280"
                 class="w-full h-32 sm:h-36 md:h-40 lg:h-48 rounded-xl object-cover">
-            <div class="absolute top-1 right-1 rounded-full px-2 text-sm bg-white text-primary">
-                {{ duration }}
-            </div>
+                <span class="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
+            {{ duration }}
+        </span>
         </div>
         <div class="lg:px-2 pt-2 lg:pb-4 xl:px-4 md:pt-4  h-full flex flex-col justify-between">
             <div class="h-full">
-                <h2 class="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 text-gray-700 dark:text-white">
+                <h2 class="font-semibold text-base md:text-lg lg:text-xl line-clamp-2 md:line-clamp-3 text-gray-700 dark:text-white">
                     {{ title }}
                 </h2>
-                <p
-                    class="text-gray-600 line-clamp-2 dark:text-gray-300 !hidden sm:!flex sm:text-sm pt-2 md:pt-4 overflow-hidden">
-                    {{ description }}
-                </p>
             </div>
             <div class="pt-3 sm:pt-5 min-h-max h-max">
                 <NuxtLink :to="href"
@@ -24,7 +20,7 @@
                     <span class="absolute inset-0 rounded-full group-hover:scale-105 origin-center transition-all ease-in-out bg-primary">
 
                     </span>
-                    <span class="relative flex items-center">
+                    <span class="relative flex items-center gap-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                             fill="currentColor" class="w-3 h-3">
                             <path fill-rule="evenodd"
