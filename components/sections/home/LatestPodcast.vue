@@ -35,25 +35,25 @@
                     <div
                         class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
                         <CardsRecentPod title="How to hack a website with Html in simple way" duration="23min" href="#"
-                            cover-image="/images/sidebiew.jpg" />
+                            cover-image="/images/sidebiew.webp" />
                     </div>
 
                     <div
                         class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
                         <CardsRecentPod title="5 Principales you must know for writting clear code" duration="1h:22min" href="#"
-                            cover-image="/images/podCast.jpg" />
+                            cover-image="/images/podCast.webp" />
                     </div>
 
                     <div
                         class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
                         <CardsRecentPod title="Make you website request secure than you could mind" duration="12min" href="#"
-                            cover-image="/images/sidebiew.jpg" />
+                            cover-image="/images/sidebiew.webp" />
                     </div>
 
                     <div
                         class=" w-11/12 min-w-[91.666667%] xs:w-80 xs:min-w-[20rem] md:w-1/3 md:min-w-[33.333333%] lg:w-1/4 lg:min-w-[25%]">
                         <CardsRecentPod title="How to get started with desktop developpement" duration="50min" href="#"
-                            cover-image="/images/sidebiew.jpg" />
+                            cover-image="/images/sidebiew.webp" />
                     </div>
                 </div>
             </div>
