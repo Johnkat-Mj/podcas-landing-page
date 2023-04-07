@@ -34,7 +34,4 @@ module.exports = {
       },
     },
   },
-  variants: {
-    lineClamp: ["responsive", "hover"],
-  },
 };
