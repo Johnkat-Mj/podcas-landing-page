@@ -1,7 +1,6 @@
 <template>
     <div class="w-full relative rounded-2xl overflow-hidden">
-        <img :src="coverImage" alt="cover image" width="300" loading="lazy"
-            class="w-full aspect-square object-cover rounded-2xl">
+        <nuxt-img :src="coverImage" alt="Cover image" width="2280" class="w-full aspect-square object-cover rounded-2xl" />
         <span class="absolute top-2 right-2 px-2 rounded-full text-sm text-white bg-primary">
             {{ duration }}
         </span>
@@ -11,7 +10,8 @@
                 {{ title }}
             </h2>
             <div class="pt-2">
-                <NuxtLink :to="href" class="flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-gray-100/20 w-max">
+                <NuxtLink :to="href"
+                    class="flex items-center text-white rounded-full p-0.5 pr-2 gap-2 text-sm border border-gray-100/20 w-max">
                     <span class="p-1 rounded-full bg-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                             fill="currentColor" class="w-3 h-3">
